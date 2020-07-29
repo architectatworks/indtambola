@@ -1,0 +1,27 @@
+.TambolaBoardEmptyCoin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-weight: bold; */
+    font-size: 20px;    
+    color: red;
+    /* box-sizing: border-box;
+    box-shadow: -5px 3px rgb(156, 85, 78);
+    text-shadow: -2px 1px rgb(56, 56, 56); */
+    /* border: 2px solid salmon; */
+    background-color: grey;
+    /* border-radius: 50%; */
+    width: 90%;
+    height: 80%;
+    height: 80px;
+    /* padding: 1%; */
+    z-index: 5;
+}
+
+@media (min-width: 500px) {
+    .TambolaBoardEmptyCoin {
+        font-size: 72px;
+        /* box-shadow: -6px 4px rgb(156, 85, 78); */
+        width: 110%;
+    }
+}

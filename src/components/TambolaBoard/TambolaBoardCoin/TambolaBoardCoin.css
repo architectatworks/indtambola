@@ -1,0 +1,97 @@
+.TambolaBoardCoinSel{
+    height: 80px;
+    width: 100%;
+    background-color: lightblue;
+    align-items: center;
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.TambolaBoardCoinSel::before,
+.TambolaBoardCoinSel::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.TambolaBoardCoinSel::before {
+    border-bottom: 2px solid green;
+    -webkit-transform: skewY(-45deg);
+    transform: skewY(-45deg);
+}
+
+.TambolaBoardCoinSel::after {
+    border-bottom: 2px solid blue;
+    -webkit-transform: skewY(45deg);
+    transform: skewY(45deg);
+}
+
+.TambolaBoardCoinInter {
+    height: 80px;
+    width: 100%;
+    background-color: yellow;
+    align-items: center;
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+    position: relative;
+    display: inline-block;
+}
+.TambolaBoardCoinInter::before,
+.TambolaBoardCoinInter::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.TambolaBoardCoinInter::before {
+    border-bottom: 2px solid green;
+    -webkit-transform: skewY(-45deg);
+    transform: skewY(-45deg);
+}
+
+.TambolaBoardCoinInter::after {
+    border-bottom: 2px solid blue;
+    -webkit-transform: skewY(45deg);
+    transform: skewY(45deg);
+}
+.TambolaBoardCoin {
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    font-weight: bold;
+    font-size: 28px;
+    color: black;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 28px;    
+    color: black;
+    box-sizing: border-box;
+    box-shadow: -5px 3px rgb(156, 85, 78);
+    text-shadow: -2px 1px rgb(56, 56, 56);
+    border: 2px solid salmon;
+    background-color: salmon;
+    border-radius: 50%;
+    width: 70%;
+    height: 80%;
+    height: 90px;
+    padding: 1%;
+    z-index: 5; */
+}
+
+@media (min-width: 500px) {
+    .TambolaBoardCoin {
+        /* font-size: 32px;
+        box-shadow: -6px 4px rgb(156, 85, 78);
+        width: 80%; */
+    }
+}

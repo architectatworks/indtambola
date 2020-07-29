@@ -1,0 +1,52 @@
+.TambolaGameManager {
+    text-align: center;
+    width: 96%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    font-family: inherit;
+}
+
+.Header {
+    margin: 5px 5px 0;
+    padding: 0;
+}
+
+.GameControls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: inherit;
+}
+
+.CoinPublisher {
+    position: absolute;
+    top: 200px;
+    left: 55px;
+    font-family: inherit;
+}
+
+.Footer {
+    margin: 4px;
+    color: darkslategray;
+}
+
+.Footer a {
+    text-decoration: none;
+    color: navy;
+}
+
+@media (min-width: 500px) {
+    .CoinPublisher {
+        top: 80px;
+        left: 200px;
+    }
+}
+
+@media (min-width: 800px) {
+    .CoinPublisher {
+        top: 80px;
+        left: 430px;
+    }
+}
